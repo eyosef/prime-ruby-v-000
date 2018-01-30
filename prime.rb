@@ -10,16 +10,4 @@ def prime?(num)
   range.all? do |numbers|
     num % numbers != 0
   end #all
-
-#     if num != 2 && num.even?
-#       false
-#     elsif num == -1 || num == 1
-#       false
-#     elsif num % 1 == 0 && num % num == 0 && num <= 12
-#       true
-#     # elsif num%43== 0 || num%33==0 #FIX - specifically for 1763 and 101013
-#     #   false
-#     elsif num >= 2000 && num%10 == 3 || num%10 == 7 || num%10 == 9 #prime numbers typically end in 3, 7 or 9
-#       true
-#     end #if statement
 end #method
