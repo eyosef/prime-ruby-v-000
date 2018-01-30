@@ -2,7 +2,8 @@ require 'pry'
 test_range = [-1, 0, 1, 4, 40, 1763, 101013, 2, 3, 11, 105557]
 
 def prime?(num)
-  var = [2..1000]
+  var = [2..end_num]
+  end_num = num -1
 
     if num != 2 && num.even?
       false
