@@ -6,7 +6,7 @@ def prime?(num)
   range = (2..end_num).to_a
 
   range.all? do |numbers|
-    numbers % num == 0
+    numbers % num = 0
   end #all
 
 
