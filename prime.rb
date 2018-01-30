@@ -3,6 +3,7 @@ test_range = [-1, 0, 1, 4, 40, 1763, 101013, 2, 3, 11, 105557]
 
 def prime?(num)
   var = [1..1000]
+  
     if num != 2 && num.even?
       false
     elsif num == -1 || num == 1
