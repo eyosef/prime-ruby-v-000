@@ -5,6 +5,9 @@ def prime?(num)
   end_num = num - 1
   range = (2..end_num).to_a
 
+  range.all? do ||
+  end #all
+
 
     if
 
