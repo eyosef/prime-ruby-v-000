@@ -7,9 +7,9 @@ def prime?(num)
     if num <= 0 || num == 1
       return false
     end
-    binding.pry 
+    binding.pry
   range.all? do |numbers|
-    numbers % num != 0
+    num % numbers != 0
   end #all
 
 #     if num != 2 && num.even?
