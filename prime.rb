@@ -5,7 +5,8 @@ def prime?(num)
   end_num = num - 1
   range = (2..end_num).to_a
     if num <= 0 || num == 1
-      false 
+      return false
+    end 
   range.all? do |numbers|
     numbers % num != 0
   end #all
