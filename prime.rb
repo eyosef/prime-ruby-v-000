@@ -7,7 +7,6 @@ def prime?(num)
     if num <= 0 || num == 1
       return false
     end
-    binding.pry
   range.all? do |numbers|
     num % numbers != 0
   end #all
